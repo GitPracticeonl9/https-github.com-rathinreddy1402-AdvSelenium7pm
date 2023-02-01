@@ -45,5 +45,6 @@ else         //mvn test -Dtest=classname -Dbrowser=firefox -Durl=
 	driver.get(URL);
 	driver.findElement(By.name("user_name")).sendKeys(UN);
 	driver.findElement(By.name("user_password")).sendKeys(PW);
+		//pushed
 }
 }
